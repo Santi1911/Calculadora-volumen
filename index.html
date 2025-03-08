@@ -10,15 +10,16 @@
 
     <div class="contenedor">
         <h2>Calculadora de Volumen de Tanques Circulares</h2>
-        <p>Ingresa los valores para calcular el volumen de tu tanque en metros cúbicos.</p>
+        <p>Ingresa los valores para calcular el volumen de tu tanque en metros cúbicos y litros.</p>
 
-        <label>Diámetro del tanque (m):</label>
-        <input type="number" id="diametro" step="0.01">
+        <label for="diametro">Diámetro del tanque (m):</label>
+        <input type="number" id="diametro" step="0.01" placeholder="Ej: 1.5">
 
-        <label>Altura del agua (m):</label>
-        <input type="number" id="altura" step="0.01">
+        <label for="altura">Altura del agua (m):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Ej: 2.0">
 
         <button onclick="calcularVolumen()">Calcular</button>
+
         <div id="resultado"></div>
     </div>
 
